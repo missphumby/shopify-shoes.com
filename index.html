@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+
+<html lang=en>
+<head>
+     <a meta charset="utf-8"/>  
+     <title>Funby_heelsandfashion</title> 
+     <link rel="stylesheet" type="text/css" href="css/major.css"> 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head> 
+    
+    <body>
+      <nav id="main-navigation">
+     <UL> 
+        <li><p>shoes</p></li>
+        <li><p>best buys</p></li>
+        <li><p>offers</p></li>
+        <li><p>accessories</p></li>
+        <li><p>about us</p></li>
+        <li id="contactusnow" style="margin-right: 130px;"><a href="CSS/contactus.html">Contact Us</a></li>
+         <input type="text" placeholder="Search Shoes"/><span><i id="search"class="fa fa-search"></i></span>
+     </UL> 
+     </nav>         
+    
+      <div id="banner"></div>
+      <div id="diamond">
+      <img src="imgs/GREENedit.jpg">
+      <h2>CATEGORIES</h2>
+    <ul>
+        <li><h4>STILLETTOS</h4></li>
+        <li><h4>peep toe heels</h4></li>
+        <li><h4>cone heels</h4></li>
+        <li><h4>wedge sandals</h4></li>
+        <li><h4>cuban heels</h4></li>
+        <li><h4>pumps</h4></li>
+        <li><h4>gladiator scandals</h4></li>
+     </ul>
+   </div>
+    <hr>
+        <div class="container">
+        <h1>CLEARANCE SALES!!!</h1>
+        <h1>50% DISCOUNT ON ALL ITEMS</h1>
+        <h2>DURING THE EASTER SEASON</h2>
+        <h3>YOU DON'T WANNA MISS OUT ON THIS</h3>
+        </div>
+    <hr>    
+    
+        <div id="brands">
+        
+        <h1>~OUR POPULAR BRANDS~</h1>
+        
+        <div class="box outset1">LOUIS VUITTON</div>    
+        <div class="box groove">LOUBOUTIN</div>
+        <div class="box outset">GUCCI</div>
+        <div class="box groove2">FENDI</div>    
+        <div class="box inset">ZARA</div>
+        <div class="box ridge">ATMOSPHERE</div>     
+        </div>
+        
+        <hr>
+        
+<div id="container2">
+<section id="pictures"> 
+<ul>
+  <li><img class="a" src="imgs/redshoe.jpg"><br/><p>Louboutin Red Pumps $50</p></li>
+  <li><img class="b" src="imgs/whiteshoe.jpg"><br/><p>Zara White Pumps $85</p></li>
+  <li><img class="c" src="imgs/diamond-high-heels.jpg"><br/><p>Fendi Diamond Heels $150</p></li>
+  <li><img class="d" src="imgs/lemonpumps.jpg"><br/><p>Gucci Lemon Pumps $58</p></li>
+  <li><img class="e" src="imgs/PINK-SHOE.jpg"><br/><p>Miu Miu Pink Pumps $88</p></li>
+  <li><img class="f" src="imgs/scandals.jpg"><br/><p>Gucci 10 ft Scandals $65</p></li>
+  <li><img class="g" src="imgs/diamond_heels.jpg"><br/><p>Zara Diamond heels $94</p></li>
+  <li><img class="h" src="imgs/GREENH.jpg"><br/><p>Michael kors Green cuban $150</p></li>
+
+</ul>
+</section>
+</div>
+        
+<br>
+<div id="main-content">
+    
+<a id="loadbutton">LOAD MORE</a>
+    
+</div>
+        
+<div id="contact">        
+ <ul>       
+    <li><img src="imgs/fb.png"><p>Funby_heels</p></li>        
+    <li><img src="imgs/twit.png"><a href="http://twitter.com/phumby1" target="_blank">Funby_heels</a></li>       
+    <li><img src="imgs/inst.png"><a href="http://instagram.com/17th_styling/">Funby_heels</a></li>   
+    <li><img src="imgs/whatsapp.png"><p>08185687480</p></li>  
+ </ul>       
+ </div>       
+  
+<div id="footer">              
+  <h2>HOME</h2>     
+  <h2>ABOUT US</h2>   
+  <h2>TEAM</h2>     
+  <h2>TERMS AND CONDITION</h2>     
+  <h2>COPYRIGHT</h2>     
+
+  <hr> 
+  <p><sub>@2019</sub>.Funby_HeelsandFashion.All Rights Reserved.</p>   
+</div>      
+           
+   
+    </body>
+    <script>
+      const loadbutton = document.getElementById('loadbutton')
+      const containerShoe = document.getElementById('container2')
+    loadbutton.onclick = function() {
+      // alert('will you like to view more products?')
+        if(containerShoe.className === "open"){
+        //shrink the box
+        containerShoe.className = "";
+        loadbutton.innerHTML = "LOAD MORE";   
+    } else{
+        //expand the box
+        containerShoe.className = "open";
+        loadbutton.innerHTML = "LOAD LESS";
+    }
+    };
+    
+    </script>        
+    
+    </html>
